@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>REACT! REACT! REACT!</title>
+    <script src ="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src ="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src ="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <style>
+    #container{
+        padding: 50px;
+        background-color: #EEE;
+    }
+    #container h1{
+        font-size:144px;
+        font-family: sans-serif;
+        color : #0080A8;
+    }
+    </style>
+</head>
+<body>
+    <div id = "container"></div>
+    <script type="text/babel">
+        var destination = document.querySelector("#container");
+        ReactDOM.render(
+            <div>
+                <h3><i>lee hosu</i></h3>
+                <h3><i>Iron man</i></h3>
+                <h3><i>Super man</i></h3>
+                <h3><i>Awsome React</i></h3>
+            </div>,
+            destination
+        );
+    </script>
+</body>
+</html>
