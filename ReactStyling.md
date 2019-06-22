@@ -32,11 +32,14 @@ ReactDOM.render(
     }
 ```
 - 이렇게 적용하고 브라우저를 확인해보면 아래 처럼 적용되어있다.
+
 ![styling01](./image/ReactStyling/styling01.png)
 
 - 여기서 css가 주의할 점은 생성된 HTML을 이해해야한다.
 - 코드를 보면 각각의 div태그로 감싸인다. 
+
 ![styling02](./image/ReactStyling/styling02.png)
+
 - 그렇기 때문에 이 DOM의 구조는 div div div로 감싸여져있다.
 
 #### 가장 간단한 css 
