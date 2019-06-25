@@ -13,3 +13,5 @@
 #### 4. 👔 [React Styling](https://github.com/leehosu/react-tutorial/blob/master/ReactStyling.md)
 
 #### 5. 🎈 [Create Complex Components](https://github.com/leehosu/react-tutorial/blob/master/complexComponent.md)
+
+#### 6. 🧤 [Pass On Property](https://github.com/leehosu/react-tutorial/blob/master/PassProperty.md)
