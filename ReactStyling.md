@@ -2,7 +2,7 @@
 
 - 어떤 UI 컴포넌트를 위한 스타일이 다른 어딘가에 있다면, 독립적인 UI 컴포넌트가 될 수 없다.
 
-> 파일 위치 : html/styling.html
+> 파일 위치 : html/04/styling.html
 
 ```js
  class Letter extends React.Component{
@@ -95,7 +95,7 @@ ReactDOM.render(
 1. CSS 속성과 콘텐츠로 갖는 객체를 정의한다.
 2. 스타일링 하고 싶은 JSX element에 style 속성을 사용해 그 객체를 할당한다.
 
-> 파일 위치 : html/StylingReact.html
+> 파일 위치 : html/04/StylingReact.html
 
 ```js
  class Letter extends React.Component{
