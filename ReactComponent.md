@@ -7,7 +7,7 @@
 - 점선으로 둘러싸인 각 부분은 모양과 기능을 책임지는 개별 컴포넌트를 나타낸다.
 
 #### UI를 다루는 방식의 변화
-> 파일 위치 : html/ex3.html
+> 파일 위치 : html/03/ex3.html
 ```js
     ReactDOM.render(
             <div>
@@ -25,7 +25,7 @@
 
 ## Componet 사용하여 Hello, World! 출력하기
 
-> 파일위치 : html/component.html
+> 파일위치 : html/03/component.html
 ``` js
      var destination = document.querySelector("#container");
         class HelloWorld extends React.Component{
