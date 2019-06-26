@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>REACT! REACT! REACT!</title>
+    <script src ="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src ="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src ="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    
+    <style>
+    #container{
+        padding: 50px;
+        background-color: #EEE;
+    }
+    </style>
+
+</head>
+<body>
+    
+    <div id = "container"></div>
+    <script type="text/babel">
+    var destination = document.querySelector("#container");
+
+    class LightingCounter extends React.Component{
+        constructor(props){
+            super(props);
+
+            this.state = {
+                strikes : 0
+            };
+
+            this.timerTick = this.timerTick.bind(this);
+        }
+
+        timerTick(){
+            this.setState({
+                strikes : this.state.strikes + 100
+            });
+        }
+
+        componentDidMount(){
+            setInterval(this.timerTick, 1000);
+        }
+
+        render(){
+            var counterStyle = {
+                color : "#66FFFF",
+                fontSize:50
+            };
+
+            // var count = this.state.strikes.toLocalString();
+
+            return(
+                <div>
+                    <h1>{this.state.strikes} </h1>
+                </div>
+            );
+        }
+    }
+
+    class LightingCounterDisplay extends React.Component{
+        render(){
+            var commonStyle = {
+                margin:0,
+                padding:0
+            };
+
+            var divStyle = {
+                width:250,
+                textAlign :"center",
+                backgroundColor:"black",
+                padding:40,
+                fontFamily:"sans-serif",
+                color:"#999",
+                borderRaius:10
+            };
+
+            var textStyle = {
+                emphasis: {
+                    fontSize:38,
+                    ...commonStyle
+                },
+                smaillEmphasis:{
+                    ...commonStyle
+                },
+                small:{
+                    fontSize:17,
+                    opacity:0.5,
+                    ...commonStyle
+                }
+            };
+
+            return(
+                <div style ={divStyle}>
+                    <LightingCounter />
+                    <h2 style = {textStyle.smaillEmphasis}>Lighting Strikes</h2>
+                    <h2 style = {textStyle.emphasis}>WorldWide</h2>
+                    <p style = {textStyle.small}>(made by. lee hosu)</p>
+                </div>
+            );
+        }
+    }
+   
+    ReactDOM.render(
+        <div>
+            <LightingCounterDisplay />
+        </div>,
+        destination
+     );
+    </script>
+</body>
+</html>
