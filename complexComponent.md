@@ -5,7 +5,8 @@
 > 여러 컴포넌트를 조합해 더 복잡한 컴포넌트를 만들 수 있다.
 
 ## 간단한 팔레트 카드 만들기. 
-![cardComplex](./image/complex/complexEX.png)
+
+![cardComplex](./image/complex/complexEx.png)
 
 1. 주요 비주얼 요소 식별
 2. 컴포넌트로 만들 대상의 선별
