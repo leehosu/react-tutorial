@@ -25,3 +25,5 @@
 #### 10. 🎉 [Event](https://github.com/leehosu/react-tutorial/blob/master/Event.md)
 
 #### 11. 🚲 [Component Life Cycle](https://github.com/leehosu/react-tutorial/blob/master/ComponentLifecycle.md)
+
+#### 12. ☄ [Access DOM Element](https://github.com/leehosu/react-tutorial/blob/master/AccessDOM.md)
