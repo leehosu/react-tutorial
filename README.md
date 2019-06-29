@@ -1,7 +1,7 @@
 # ✨ REACT_
 
 ## 들어가며
-> 방학동안 web 기술을 키우기 위해 Learning REACT를 공부하며 모든 기록을 여기다 담을 예정.
+> 방학동안 React 공부를 위해 Learning REACT를 공부하며 모든 기록을 여기다 담을 예정.
 
 
 #### 1. 🖼 [Introducing REACT](https://github.com/leehosu/react-tutorial/blob/master/IntroducingREACT.md)
@@ -23,3 +23,5 @@
 #### 9. 🗺  [Data To UI](https://github.com/leehosu/react-tutorial/blob/master/DataToUI.md)
 
 #### 10. 🎉 [Event](https://github.com/leehosu/react-tutorial/blob/master/Event.md)
+
+#### 11. 🚲 [Component Life Cycle](https://github.com/leehosu/react-tutorial/blob/master/ComponentLifecycle.md)
