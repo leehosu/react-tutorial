@@ -2,7 +2,7 @@
 > 컴포넌트는 리액트를 가장 리액트 답게 만드는 것 중 하나다.
 > 사용자가 앱을 사용할때 보게되는 비주얼과 그 상호작용을 정의하는 주된 방법이다.
 
-![component diagram](./image/ReactComponent/componentDiagram.png)
+![component diagram](../image/ReactComponent/componentDiagram.png)
 
 - 점선으로 둘러싸인 각 부분은 모양과 기능을 책임지는 개별 컴포넌트를 나타낸다.
 
@@ -43,7 +43,7 @@
             destination
         );
 ```
-![component](./image/ReactComponent/component.png)
+![component](../image/ReactComponent/component.png)
 
 - 컴포넌트를 사용하는 방법은 여러가지가 있지만, class 문법을 사용한다.
 ```js
@@ -108,7 +108,7 @@ ReactDom.render(
     destination
 )
 ```
-![componentChildren](./image/ReactComponent/componentChildren.png)
+![componentChildren](../image/ReactComponent/componentChildren.png)
 
 - Buttonify이라고 하는 커스텀 속성은 button element의 type속성을 지정해, 컴포넌트의 render 메소드에서 this.props.behavior를 통해 접근할 수 있다.
 - 만약 자식 element가 어떤 텍스트라면 this.props.children속성은 문자열을 리턴한다.

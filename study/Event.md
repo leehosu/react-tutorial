@@ -6,7 +6,7 @@
 
 ## Event Listening and React
 
-![counter](./image/event/counter.png)
+![counter](../image/event/counter.png)
 
 #### Start
 > 파일위치 : html/10/eventEx.html

@@ -9,7 +9,7 @@
 
 > 파일위치 : html/08/stateEx.html
 
-![overview](./image/stateControll/overview.gif)
+![overview](../image/stateControll/overview.gif)
 
 ## Use of State
 - 1초에 100씩 Count가 증가하는 번개 카운터를 예시로 만들어본다.

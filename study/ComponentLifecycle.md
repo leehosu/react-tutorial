@@ -12,7 +12,7 @@
 ## First Stage
 - 컴포넌트가 삶을 시작하고 DOM으로 가는 길을 걷는 중에는 다음과 같은 생명주기 메소드들이 호출된다.
 
-![firstRender](./image/componentCycle/firstRender.png)
+![firstRender](../image/componentCycle/firstRender.png)
 
 #### 기본 속성 설정
 - Component의 defaultProps 속성은 this.props의 기본값을 지정할 수 있게 해준다.
@@ -61,7 +61,7 @@ constructor(props){
 - 상태가 변경되면 Component는 render 메소드를 다시 호출한다.
 - 그 component의 결과에 의존하는 다른 모든 component 역시 자신들의 render 메소드를 호출한다.
 
-![updateRender](./image/componentCycle/updateRender.png)
+![updateRender](../image/componentCycle/updateRender.png)
 
 #### shouldComponentUpdate
 - 이 메소드는 상태가 변경되었어도 업데이트 여부를 제어할 수 있게 해준다.
@@ -96,7 +96,7 @@ shouldComponentUpdate(newProps, newState){
 ### Change Property Control
 -  component가 update되는 또 다른 경우는 DOM 안으로 rendering 된 후에 속성 값이 변경될때이다.
 
-![updateRender2](./image/componentCycle/updateRender2.png)
+![updateRender2](../image/componentCycle/updateRender2.png)
 
 #### componentWillReceiveProps
 - 이 메소드는 하나의 인자를 받는데, 그 인자에는 새로 할당하고자 하는 속성값이 포함된다.
@@ -104,7 +104,7 @@ shouldComponentUpdate(newProps, newState){
 ## unMount Stage
 - 마지막으로 살펴볼 단계는 component가 소멸되고 DOM에서 제거되는 unMount 단계이다.
 
-![unMount](./image/componentCycle/unMount.png)
+![unMount](../image/componentCycle/unMount.png)
 
 #### conponentWillReceiveUnmount
 - 이 메소드에서 이벤트 리스너를 제거하거나 타이머를 중단하는 등의 뒷정리를 수행한다.

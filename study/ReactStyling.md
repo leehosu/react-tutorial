@@ -33,12 +33,12 @@ ReactDOM.render(
 ```
 - 이렇게 적용하고 브라우저를 확인해보면 아래 처럼 적용되어있다.
 
-![styling01](./image/ReactStyling/styling01.png)
+![styling01](../image/ReactStyling/styling01.png)
 
 - 여기서 css가 주의할 점은 생성된 HTML을 이해해야한다.
 - 코드를 보면 각각의 div태그로 감싸인다. 
 
-![styling02](./image/ReactStyling/styling02.png)
+![styling02](../image/ReactStyling/styling02.png)
 
 - 그렇기 때문에 이 DOM의 구조는 div div div로 감싸여져있다.
 
@@ -55,7 +55,7 @@ ReactDOM.render(
         text-align: center;
     }
 ```
-![styling03](./image/ReactStyling/styling03.png)
+![styling03](../image/ReactStyling/styling03.png)
 
 - 이렇게 div div div 셀렉터는 스타일링을 할 대상을 정확이 지정한다.
 - 하지만 div는 너무 중첩되고 이상하게 보인다.
@@ -86,7 +86,7 @@ ReactDOM.render(
         text-align: center;
     }
 ```
-![styling03](./image/ReactStyling/styling04.png)
+![styling03](../image/ReactStyling/styling04.png)
 
 ## React 방식의 Styling
 - React는 CSS를 사용하지 않는 인라인 방식의 Styling을 선호한다.
@@ -125,7 +125,7 @@ ReactDOM.render(
 - 그렇게 CSS 속성을 정의한 객체를 콘텐츠에 사용하는 방법은
 해당 div에 style 속성을 추가한다. ```  <div style={letterStyle}>```
 
-![style05](./image/ReactStyling/styling05.png)
+![style05](../image/ReactStyling/styling05.png)
 - 각 스타일이 실제로 inline으로 적용됨을 확인 할 수 있다.
 
 ## 배경색 커스터마이징
@@ -169,4 +169,4 @@ ReactDOM.render(
 ```
 - Letter 선언의 일부인 bgcolor속성을 통해 지정한 값이 backgroundColor에 설정된다.
 
-![style05](./image/ReactStyling/styling06.png)
+![style05](../image/ReactStyling/styling06.png)

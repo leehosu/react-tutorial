@@ -7,7 +7,7 @@
 
 ### Colorizer
 
-![colorizer](./image/accessDom/overview.png)
+![colorizer](../image/accessDom/overview.png)
 
 - colorizer는 흰색의 정사각형을 원하는 color로 바꿔주는 예제이다.
 - 전형적인 react 기법과 JSX를 사용해서 구현하려면 매우 번거롭다.
@@ -62,7 +62,7 @@ this._input.value = "";
 
 > 파일 위치 : html/12/portal.html
 
-![portal](./image/accessDom/portal1.png)
+![portal](../image/accessDom/portal1.png)
 
 - 여기서 현재 보여주고 있는 color의 이름으로 h1 element의 값이 바뀌게 해보자.
 - 핵심은 container div와 h1이 형제 element라는 점이다.
@@ -88,7 +88,7 @@ class ColorLabel extends React.Component{
     1. 출력될 내용의 JSX
     2. 그 JSX를 출력 시킬 대상 DOM element
 
-![portal2](./image/accessDom/portal2.png)
+![portal2](../image/accessDom/portal2.png)
 
 **포털을 사용함으로써 부모와 자식으로 이뤄진 기존 계층 구조에 갇히지 않고 페이지의 어느 element든 직접 접근이 가능하게 된다.**
 
