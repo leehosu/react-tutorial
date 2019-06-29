@@ -5,18 +5,18 @@
 #### OverView
 - 겹겹이 연결된 컴포넌트 들이 있고 그 계층 구조가 아래와 같다고 하자.
 
-![tree1](./image/property/tree1.png)
+![tree1](../image/property/tree1.png)
 
 - 빨간색 원에서 자주색 원으로 속성을 전달하려고 한다. 하지만 아래와 같이 속성을 전달할 수 는 없다.
 
-![tree2](./image/property/tree2.png)
+![tree2](../image/property/tree2.png)
 
 *리액트는 반드시 부모 컴포넌트에서 직계 자식 컴포넌트로만 속성이 내려가게 하는 연쇄적인 명령 실행만 가능하다.* 
 ***중간 계층을 건너 뛸 수 없다는 의미이다.***
 
 - color라는 속성을 빨간색 컴포넌트에서 자주색 컴포넌트로 보내야한다면, 아래와 같은 그림일 것이다.
 
-![tree3](./image/property/tree3.png)
+![tree3](../image/property/tree3.png)
 
 - 하지만 속성이 하나라면 간단하지만 보내고자하는 속성이 두개라면, 세개가 된다면 복잡해진다.
 
@@ -74,7 +74,7 @@ class Display extends React.Component{
 
 - 위의 코드들을 보면 Display Component와 Display Component의 출력 결과에 의존하는 Label Component, Label Component에 의존하는 Shirt Component가 있다.
 
-![exClass](./image/property/exClass.png)
+![exClass](../image/property/exClass.png)
 
 #### Review
 `<Shirt color = "skyblue" num = "3.14" size = "large" />`

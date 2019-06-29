@@ -8,7 +8,7 @@
 
 #### OverView
 
-![circles](./image/datatoui/circle.png)
+![circles](../image/datatoui/circle.png)
 
 #### Circle Component
 ```JS
@@ -74,7 +74,7 @@ for (var i=0 ; i < colors.length ; i++){
 - 각 Component에 대해 key 속성을 추가하고 color와 index의 조합을 그 값으로 지정한다.
 - 이렇게 함으로써 동적으로 Component가 생성될 때, 리액트가 추후 UI 갱신 최적화에 사용한 유일한 식별자도 만들어진다.
 
-![console](./image/datatoui/console.png)
+![console](../image/datatoui/console.png)
 
 
 

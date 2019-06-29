@@ -6,7 +6,7 @@
 
 ## 간단한 팔레트 카드 만들기. 
 
-![cardComplex](./image/complex/complexEx.png)
+![cardComplex](../image/complex/complexEx.png)
 
 1. 주요 비주얼 요소 식별
 2. 컴포넌트로 만들 대상의 선별
@@ -79,7 +79,7 @@
 ```
 - ReactDOM.render 함수에서 DOM안에 Card 컴포넌트가 표시되게 한다.
 
-![cardComponent](./image/complex/cardComponent.png)
+![cardComponent](../image/complex/cardComponent.png)
 
 #### Square Component
 ```js
@@ -99,7 +99,7 @@
 
 - squareStyle을 만든 후 ReactDOM.render메소드에 ```<Square />``` 을 추가해 브라우저에서 확인합니다.
 
-![square](./image/complex/squareComponent.png)
+![square](../image/complex/squareComponent.png)
 
 #### Label Component
 ```js
@@ -120,7 +120,7 @@ class Label extends React.Component{
 
 - Label Component를 만든 후 ReactDOM.render메소드에 ```<Label />```을 추가해 브라우저에서 확인한다.
 
-![cardEx](./image/complex/complexEx.png)
+![cardEx](../image/complex/complexEx.png)
 
 #### 속성 전달
 - 위에서는 Square와 Label 컴포넌트가 사용하는 컬러 값을 코딩했다.

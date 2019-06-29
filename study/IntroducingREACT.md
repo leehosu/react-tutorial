@@ -2,7 +2,7 @@
 - 현대의 앱은 이른바 싱글 페이지 앱 (Single Page-App|SPA)모델을 고수한다.
 - 앱의 서로 다른 view가 동일한 페이지에서 로딩되거나 언로딩된다.
 
-![spa](./image/introducingREACT/spa.webp)
+![spa](../image/introducingREACT/spa.webp)
 - 사용자가 앱을 사용함에 따라 빨간 점선의 영역의 콘텐츠는 사용자가 원하는 데이터와 HTML로 대체된다.
 
 ## SPA 문제점 3가지

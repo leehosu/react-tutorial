@@ -14,7 +14,7 @@
     - 이 경우 다른 자바스크립트의 경우처럼 JSX를 직접 지정함녀 되고, 나머지는 브라우저가 알아서 처리한다.
     -> 개발 환경에 손을 대는 시간을 절약하고 그 대신 코드 작성에 더 많이 집중할 수 있는 방법이다.
 
-> 파일 위치 : html/ex1.html
+> 파일 위치 : html/02/ex1.html
 
 ```js
 ReactDOM.render(
@@ -28,7 +28,7 @@ render 메소드는 2개의 인자를 받는다.
 
 - 단순히 JSX로부터 변환된 마크업을 DOM안에 어디에 위치할 것인지 기정만 한다.
 
-![ex1](./image/FirstReactApp/ex1.png)
+![ex1](../image/FirstReactApp/ex1.png)
 
 ## 익숙한 기술 JSX
 JSX덕분에 JS가 새롭고 빛나 보이지만, 결국 브라우저가 인식하는 최종결과는 깔끔한 HTML, CSS, JS뿐이다.
@@ -50,8 +50,8 @@ JSX덕분에 JS가 새롭고 빛나 보이지만, 결국 브라우저가 인식�
 ```
 - render 메소드의 외부에서 목적지를 정의하는 방법을 이용해 컨테이너 DOM element의 참조를 지정한다.
 
-![ex2](./image/FirstReactApp/ex2.png)
-![ex2_console](./image/FirstReactApp/ex2_console.png)
+![ex2](../image/FirstReactApp/ex2.png)
+![ex2_console](../image/FirstReactApp/ex2_console.png)
 
 - container 안에 ```<h1> lee hosu </h1>```이 씌여진걸 확인할 수 있다.
 
