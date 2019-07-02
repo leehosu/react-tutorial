@@ -27,3 +27,7 @@
 #### 11. 🚲 [Component Life Cycle](https://github.com/leehosu/react-tutorial/blob/master/study/ComponentLifecycle.md)
 
 #### 12. ☄ [Access DOM Element](https://github.com/leehosu/react-tutorial/blob/master/study/AccessDOM.md)
+
+#### 13. 👶 [React Start](https://github.com/leehosu/react-tutorial/blob/master/Training/ReactStart.md)
+
+#### 14. 💥 [Use External Data](https://github.com/leehosu/react-tutorial/blob/master/Training/UseExternalData.md)
