@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "./IPAddress.js"
+import IPAddress from "./IPAddress.js";
 
 var xhr;
 class IPAddressContainer extends Component {
@@ -14,7 +16,7 @@ class IPAddressContainer extends Component {
 
     componentDidMount(){
         xhr = new XMLHttpRequest();
-        xhr.open("GET", "https://ipinfo.io/json", true);
+        xhr.open("GET", "http://ip-api.com/json", true);
         xhr.send();
 
         xhr.addEventListener("readystatechange", this.processRequest, false);
@@ -25,13 +27,13 @@ class IPAddressContainer extends Component {
             var response = JSON.parse(xhr.responseText);
 
             this.setState({
-                ip_address : response.ip
+                ip_address : response.query
             });
         }
     }
     render(){
         return (
-            <div>{this.state.ip_address}</div>
+            <IPAddress ip = {this.state.ip_address} />
         );
     }
 };

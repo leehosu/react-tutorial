@@ -180,4 +180,55 @@ export default IPAddressContainer;
 ```
 
 > 현재 429 Error가 나오면서 실행이 안되고 있다. 빠른 시일내에 해결법을 찾아보겠습니다.
+>> 해결 : ipinfo가 하루에 request 요청양이 1000회로 제한되어있어 다른 ip find 사이트를 이용하였습니다. http://ip-api.com/json
 
+## 시각적 요소 추가하기
+- HTTP 요청을 다루는 Component를 만들었으며 정상적으로 IP 주소를 가져오는 것 까지 확인했다.
+- 오직 스타일만을 위한 별도의 Component를 만든다.
+
+##### src/IPAddress.js
+```js
+import React, { Component } from "react";
+
+class IPAddress extends Component{
+    render(){
+        return (
+            <h1>{this.props.ip}</h1>
+            <p> This is your IP Address :) </p>
+        );
+    }
+}
+
+export default IPAddress;
+```
+- IP주소를 원하는 모습으로 만들고 추가로 text를 보여줄 IPAddress라는 Component를 만들었다.
+- h1 태그안에는 ip라는 속성에 IP 주소를 넣으며, p태그를 사용해 추가로 text를 보여준다.
+
+##### src/IPAddress.css
+```css
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    padding-top:140px;
+    font-size:60px;
+    margin : -15px;
+}
+
+p{
+    font-family: sans-serif;
+    color : #907400;
+    text-align: center;
+}
+```
+- 이 CSS 를 참조하기 위해 IPAddress.js에 추가한다.
+`import "./IPAddress.css";`
+
+- IPAddress Component 사용하여 IP주소를 전달해야하기 때문에 IPAddressContainer.js에 IPAddress Component 를 참조 시켜준다.
+`import IPAddress from "./IPAddress.js";`
+
+- 마지막으로 ip라는 속성을 정의하고 여기에 ip_address라는 상태 변수를 설정해 IPAddress Component를 호출한다.
+`<IPAddress ip = {this.state.ip_address} />`
+
+- 이렇게 함으로써 IP 주소는 IPAddress Component의 render 메소드로 들어가 스타일이 적용돼 브라우저에 보이게 된다.
+
+![overveiw](../image/useExternal/overview.png)
