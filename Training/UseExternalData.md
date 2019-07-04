@@ -145,6 +145,18 @@ class IPAddressContainer extends Component {
 export default IPAddressContainer;
 ```
 - 위 코드는 HTTP 통신을 위해 코딩되었다.
+- `readystatechange` : readyState 속성 값이 변경될 때마다 자동으로 호출될 함수 또는 함수명을 저장한다.
+- `readyState` : XMLHttpRequest 객체의 상태를 가지고 있고 0부터 4까지의 값을 가진다.
+
+| readyState 값 | 의미 |
+|:---:|:---:|
+| `0` | 요청이 초기화되지 않음 |
+| `1` | 서버와 연결되었음 |
+| `2` | 요청이 받아 들여짐 |
+| `3` | 요청이 진행 중 |
+| `4` | 요청이 완료되고 응답을 받음 |
+
+- `state` : 200 - 정상 / 404 - 페이지 오류
 
 ```js
    componentDidMount(){
