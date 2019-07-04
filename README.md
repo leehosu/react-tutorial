@@ -31,3 +31,5 @@
 #### 13. 👶 [React Start](https://github.com/leehosu/react-tutorial/blob/master/Training/ReactStart.md)
 
 #### 14. 💥 [Use External Data](https://github.com/leehosu/react-tutorial/blob/master/Training/UseExternalData.md)
+
+#### 15. 📚 [Make ToDo List App](https://github.com/leehosu/react-tutorial/blob/master/Training/MakeToDoList.md)
