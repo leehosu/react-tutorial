@@ -33,3 +33,9 @@
 #### 14. 💥 [Use External Data](https://github.com/leehosu/react-tutorial/blob/master/Training/UseExternalData.md)
 
 #### 15. 📚 [Make ToDo List App](https://github.com/leehosu/react-tutorial/blob/master/Training/MakeToDoList.md)
+
+
+
+## Personal Concept
+
+#### 1. 🧛‍ [props and state](https://github.com/leehosu/react-tutorial/blob/master/study/personal/PropsAndState.md)
