@@ -118,7 +118,7 @@ class Counter extends Component {
       super(props);
 
       this.state = {
-          name :0
+          number :0
       }
   }
 
