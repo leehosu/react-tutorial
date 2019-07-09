@@ -38,7 +38,7 @@
 
 #### 17. 🔧 [Protect Unnecessary Rendering](https://github.com/leehosu/react-tutorial/blob/master/Training/ProtectRendering.md)
 
-
+#### 18. ⚖ [Create a SPA Using React Router](https://github.com/leehosu/react-tutorial/blob/master/Training/CreateSPA.md)
 
 ## Personal Concept
 
