@@ -34,6 +34,7 @@
 
 #### 15. 📚 [Make ToDo List App](https://github.com/leehosu/react-tutorial/blob/master/Training/MakeToDoList.md)
 
+#### 16. 📃 [Slide Menu](https://github.com/leehosu/react-tutorial/blob/master/Training/SlideMenu.md)
 
 
 ## Personal Concept
