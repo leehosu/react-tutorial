@@ -36,7 +36,7 @@
 
 #### 16. 📃 [Slide Menu](https://github.com/leehosu/react-tutorial/blob/master/Training/SlideMenu.md)
 
-#### 17. 🔧 [Protect Unnecessary Rendering](https://github.com/leehosu/react-tutorial/blob/master/Training/protectRendering.md)
+#### 17. 🔧 [Protect Unnecessary Rendering](https://github.com/leehosu/react-tutorial/blob/master/Training/ProtectRendering.md)
 
 
 
