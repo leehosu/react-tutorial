@@ -8,6 +8,8 @@ class Menu extends Component{
         if(this.props.menuVisibility) {
             visibility = "show";
         }
+        
+        console.log("Rendering : Menu");
         return (
             <div id = "flyoutMenu"
                 onMouseDown = {this.props.handleMouseDown}
