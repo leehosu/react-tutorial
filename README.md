@@ -40,6 +40,8 @@
 
 #### 18. ⚖ [Create a SPA Using React Router](https://github.com/leehosu/react-tutorial/blob/master/Training/CreateSPA.md)
 
+#### 19. 🛒 [Introduce REDUX](https://github.com/leehosu/react-tutorial/blob/master/Training/IntroduceREDUX.md)
+
 ## Personal Concept
 
 #### 1. 🧛‍ [props and state](https://github.com/leehosu/react-tutorial/blob/master/study/personal/PropsAndState.md)
