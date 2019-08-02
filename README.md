@@ -42,6 +42,8 @@
 
 #### 19. 🛒 [Introduce REDUX](https://github.com/leehosu/react-tutorial/blob/master/Training/IntroduceREDUX.md)
 
+#### 20. 👍 [React and Redux](https://github.com/leehosu/react-tutorial/blob/master/Training/ReactAndRedux.md)
+
 ## Personal Concept
 
 #### 1. 🧛‍ [props and state](https://github.com/leehosu/react-tutorial/blob/master/study/personal/PropsAndState.md)
