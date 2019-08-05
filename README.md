@@ -47,3 +47,4 @@
 ## Personal Concept
 
 #### 1. 🧛‍ [props and state](https://github.com/leehosu/react-tutorial/blob/master/study/personal/PropsAndState.md)
+#### 2. 💿 [Life Cycle API](https://github.com/leehosu/react-tutorial/blob/master/study/personal/LifecycleAPI.md)
