@@ -48,4 +48,4 @@
 
 ####  🧛‍ [props and state](https://github.com/leehosu/react-tutorial/blob/master/study/personal/PropsAndState.md)
 #### 💿 [Life Cycle API](https://github.com/leehosu/react-tutorial/blob/master/study/personal/LifecycleAPI.md)
-###  👨‍🚀 [Input Controll](https://github.com/leehosu/react-tutorial/blob/master/phoneExample/InputControll.md)
+###  👨‍🚀 [Input Controll](https://github.com/leehosu/react-tutorial/blob/master/study/phoneExample/InputControll.md)
