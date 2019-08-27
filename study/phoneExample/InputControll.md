@@ -164,3 +164,5 @@ export default PhoneForm;
 
 
 ![parentState2](../../image/input/parentState2.png)
+
+[다음으로](./ArrayControll.md)
