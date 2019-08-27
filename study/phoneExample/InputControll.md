@@ -51,7 +51,7 @@ export default PhoneForm;
 
 - 그 후 `App.js`에서 `PhoneForm`을 추가해주면 브라우저에 나타난다.
 
-![stateControll](../image/input/stateControll.png)
+![stateControll](../../image/input/stateControll.png)
 
 
 ```js
@@ -99,13 +99,13 @@ export default PhoneForm;
 - 이제 `onChange` 이벤트를 사용하기 위해 `name`을 기준으로 구분을 해야하는데 그것이 바로 `this.setState`안에 있는 `[e.target.name]`를 통해 조회할 수 있다.
 - 이 후 브라우저를 통해 확인해 보면 
 
-![stateControll2](../image/input/stateControll2.png)
+![stateControll2](../../image/input/stateControll2.png)
 
 #### 부모 컴포넌트에 정보 전달하기
 - 이제 state 안에 있는 값을 부모 component에게 전달해줄 차례이다.
 - 부모 컴포넌트에서 메소드를 만들고, 이 메소드를 자식에게 전달한 다음 자식 내부에서 호출하는 방식을 이용한다.
 
-![parentState](../image/input/parentState.png)
+![parentState](../../image/input/parentState.png)
 
 - 먼저 App.js`에서 handleCreate라는 메소드를 만들고, 이를 PhoneForm한테 전달해준다.
 - 그 후, PhoneForm에서 submit 버튼을 만들어 submit이 발생하면 props로 받은 함수를 호출하여 `App.js`에서 피라미터로 받은 값을 사용할 수 있도록 한다.
@@ -163,4 +163,4 @@ export default PhoneForm;
 - 즉, input form에 이름과 번호를 작성한 후 버튼을 누르게 되면 현재 state가 submit 효과로 인해 `App.js`의 `handleCreate`로 넘어가 console에 name과 phone이 출력되고 그 후 `onCreate` 함수를 호출하여 input form에 있는 state를 초기화 해준다.
 
 
-![parentState2](../image/input/parentState2.png)
+![parentState2](../../image/input/parentState2.png)
