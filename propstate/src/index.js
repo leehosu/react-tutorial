@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Counter from "./Counter";
+import App from "./App";
 const destination = document.getElementById("root");
 
 ReactDOM.render(
-    <Counter />,
+    <App />,
     destination
 )
